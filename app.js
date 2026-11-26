@@ -1,6 +1,6 @@
 (function () {
   var SITE = window.SITE, PROJECTS = window.PROJECTS;
-  var IMG = "assets/img/";
+  var IMG = "";
 
   var UI = {
     en: {
