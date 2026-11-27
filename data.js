@@ -93,15 +93,15 @@ window.PROJECTS = [
       { h: { en: "Concepts", zh: "概念发展" },
         p: { en: "Each direction supported one hand action and blocked another: a handle was clear but tool-like, a palm form calmed but blocked gestures, a ring kept the hand free. The answer was to combine rather than choose: a ring for control and a squeezable core, leaving the hand free to gesture.",
              zh: "每个方向都只满足一种手部动作，同时妨碍另一种：手柄形态清晰但像工具，掌握形态能安抚情绪却妨碍手势，戒指形态则让手保持自由。最终方案不是三选一，而是组合：戒指负责操控，可挤压的核心用来缓解紧张，手仍然可以自由做手势。" },
-        imgs: ["orato-05.jpg", "orato-06.jpg", "orato-07.jpg", "orato-08.jpg"] },
+        imgs: ["orato-hd-concept-1.jpg", "orato-hd-concept-2.jpg", "orato-hd-concept-3.jpg", "orato-hd-concept-4.jpg"] },
       { h: { en: "Prototypes and grip checks", zh: "原型与握持测试" },
         p: { en: "Each model answered one question and changed the next step. Form comparisons kept the waisted body, cap top and egg grip; a full-scale model checked thumb reach and control placement; a double-scale model helped examine ring joints and contact points.",
              zh: "每个模型回答一个问题，并决定下一步怎么做。形态对比模型确定了收腰的主体、帽形顶部和蛋形握把；等比例模型检查了拇指够不够得到、按键放在哪里；两倍放大模型用来研究戒指连接处和接触点。" },
-        imgs: ["orato-09.jpg", "orato-10.jpg", "orato-11.jpg", "orato-12.jpg"] },
+        imgs: ["orato-hd-proto-1.jpg", "orato-hd-proto-2.jpg", "orato-hd-proto-3.jpg", "orato-hd-proto-4.jpg", "orato-hd-proto-5.jpg", "orato-hd-proto-6.jpg"] },
       { h: { en: "Final concept", zh: "最终方案" },
         p: { en: "One object for slides, nerves and gestures. The top handles slide control, the middle gives contact and feedback, and the lower part is for grip and squeezing. Materials pair a hard outside with a soft inside: ceramic and silicone, with rubber or leather options. It comes in male and female versions with a charging dock.",
              zh: "一件产品同时照顾翻页、紧张和手势。顶部负责翻页控制，中部提供触感和反馈，下部用来握持和挤压。材料采用外硬内软的组合：陶瓷加硅胶，也可选橡胶或皮革。设计有男款和女款，并配有充电底座。" },
-        imgs: ["orato-02.jpg", "orato-03.jpg", "orato-04.jpg", "orato-13.jpg", "orato-14.jpg"] }
+        imgs: ["orato-hd-final-1.jpg", "orato-hd-final-2.jpg", "orato-hd-final-3.jpg", "orato-hd-final-4.jpg", "orato-hd-final-5.jpg", "orato-hd-final-6.jpg", "orato-hd-final-7.jpg"] }
     ]
   },
   {
@@ -118,11 +118,11 @@ window.PROJECTS = [
       { h: { en: "From 40 sketches to 2 directions", zh: "从 40 张草图到 2 个方向" },
         p: { en: "BOBO values became a design language: minimal, function-driven, friendly. I drew 40+ quick sketches, mapped by how the lid, tank and cup are arranged, then scored each option on craftsmanship, simplicity, adaptability, sustainability and artistry. The two strongest became Orbit and Facet.",
              zh: "我把 BOBO 族的价值观转化为设计语言：极简、功能导向、亲切。先画了 40 多张快速草图，按壶盖、水箱和杯子的布局分类，再从工艺感、简洁、适应性、可持续和艺术性五个方面打分，得分最高的两个方案发展成了 Orbit 和 Facet。" },
-        imgs: ["orbit-facet-02.jpg", "orbit-facet-03.jpg", "orbit-facet-04.jpg"] },
+        imgs: ["orbit-facet-02.jpg", "orbit-facet-hd-sketch-1.jpg", "orbit-facet-hd-sketch-2.jpg", "orbit-facet-hd-sketch-3.jpg"] },
       { h: { en: "Cardboard first, then CAD", zh: "先做纸板模型，再做 CAD" },
         p: { en: "One design language, two expressions: Orbit with connected curves, Facet with organized geometry. Full-size cardboard models came before CAD. The cardboard test showed Orbit's lever hit the round head, so I redesigned the lever before modeling.",
              zh: "同一套设计语言，两种表达：Orbit 用连贯的曲线，Facet 用规整的几何切面。建模之前先做了等大的纸板模型。纸板测试发现 Orbit 的拉杆会撞到圆形的机头，所以我在建模前重新设计了拉杆。" },
-        imgs: ["orbit-facet-05.jpg", "orbit-facet-06.jpg", "orbit-facet-07.jpg"] },
+        imgs: ["orbit-facet-hd-card-1.jpg", "orbit-facet-hd-card-2.jpg", "orbit-facet-hd-card-3.jpg"] },
       { h: { en: "Final concepts", zh: "最终方案" },
         p: { en: "Calm objects that belong on the counter, not loud appliances. Design intentions: a minimal form, clear interactions, and accessible cleaning and cord storage.",
              zh: "安静地放在台面上的物件，而不是吵闹的家电。设计重点：极简的造型、清晰直观的操作、方便清洁和收纳电线。" },
@@ -130,11 +130,11 @@ window.PROJECTS = [
       { h: { en: "Structure and manufacturing", zh: "结构与制造" },
         p: { en: "From form language to parts, with a material and process for each: ABS housing and spout (injection molding), clear Tritan tank (blow molding), EPDM buttons (compression molding) and a 304 stainless tray (sheet-metal stamping). Both concepts were developed in SolidWorks with dimensioned drawings.",
              zh: "从造型语言落实到每个零件，并确定各自的材料和工艺：ABS 外壳和出水口（注塑）、透明 Tritan 水箱（吹塑）、EPDM 按键（模压）、304 不锈钢接水盘（钣金冲压）。两个方案都在 SolidWorks 中完成建模，并出了带尺寸的工程图。" },
-        imgs: ["orbit-facet-11.jpg", "orbit-facet-12.jpg", "orbit-facet-13.jpg", "orbit-facet-14.jpg"] }
+        imgs: ["orbit-facet-11.jpg", "orbit-facet-12.jpg", "orbit-facet-13.jpg", "orbit-facet-hd-drawing-orbit.jpg", "orbit-facet-hd-drawing-facet.jpg"] }
     ]
   },
   {
-    id: "twig", cat: "industrial", year: 2026, team: "solo", cover: "twig-01.jpg", fit: "contain",
+    id: "twig", cat: "industrial", year: 2026, team: "solo", cover: "twig-hd-01.jpg",
     title: { en: "Twig", zh: "Twig" },
     sub: { en: "Moldable phone stand", zh: "可塑形手机支架" },
     context: { en: "SCAD · IDUS 718", zh: "SCAD · IDUS 718" },
@@ -147,15 +147,15 @@ window.PROJECTS = [
       { h: { en: "Concepts", zh: "概念" },
         p: { en: "Three ways to say 'bend me', compared on adjusting, folding and look: continuous arms, twists and loops, and spirals and segments. I chose continuous arms, the simplest of the three: easy to read, bend and fold.",
              zh: "用三种方式表达“掰我”，并从调节、折叠和外观三方面对比：连续手臂、扭转与圈环、螺旋与分节。最终选择了最简单的连续手臂方案：一看就懂，容易弯折，也方便收纳。" },
-        imgs: ["twig-02.jpg"] },
+        imgs: ["twig-02.jpg", "twig-hd-sketch-1.jpg", "twig-hd-sketch-2.jpg", "twig-hd-sketch-3.jpg"] },
       { h: { en: "Models and CAD", zh: "模型与 CAD" },
         p: { en: "Models showed how the arms meet the phone and the desk. The first wrap loosened and caused wobble; the revised wrap improved the fit. CAD then solved the clamp and central joint.",
              zh: "模型展示了手臂如何接触手机和桌面。第一版缠绕方式会松动、导致晃动，改进后的缠绕方式贴合度更好。之后在 CAD 中解决了夹子和中心关节的结构。" },
-        imgs: ["twig-03.jpg", "twig-04.jpg", "twig-05.jpg", "twig-06.jpg"] },
+        imgs: ["twig-hd-proto-1.jpg", "twig-hd-proto-2.jpg", "twig-hd-proto-3.jpg", "twig-05.jpg", "twig-hd-exploded.jpg"] },
       { h: { en: "Structure and testing", zh: "结构与测试" },
         p: { en: "An ABS clamp with a spring, a central joint, steel-wire cores and a PVC coating with rounded tips. It holds the phone, bends by hand and folds to carry. Testing showed it stands steady only within a limited angle range, so the next step is stiffer arms or a wider stance, then durability tests.",
              zh: "结构包括带弹簧的 ABS 夹子、中心关节、钢丝芯和带圆头的 PVC 包覆层。它可以夹住手机、用手塑形并折叠携带。测试发现只有在一定角度范围内才能稳定站立，下一步会加硬手臂或加宽支撑，然后做耐久测试。" },
-        imgs: ["twig-07.jpg", "twig-08.jpg", "twig-01.jpg", "twig-09.jpg"] }
+        imgs: ["twig-hd-04.jpg", "twig-hd-05.jpg", "twig-hd-02.jpg", "twig-hd-03.jpg", "twig-09.jpg"] }
     ]
   },
   {
