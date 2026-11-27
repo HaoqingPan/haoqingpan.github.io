@@ -159,7 +159,7 @@ window.PROJECTS = [
     ]
   },
   {
-    id: "cross-black-king", cat: "industrial", year: 2024, team: "solo", cover: "cross-black-king-hd-01.jpg",
+    id: "cross-black-king", cat: "industrial", year: 2024, team: "solo", cover: "cross-black-king-hd-render.jpg", fit: "contain",
     title: { en: "Cross Black King", zh: "Cross Black King" },
     sub: { en: "Collectible kaiju action figure", zh: "可收藏怪兽可动人偶" },
     context: { en: "CCAD · Senior thesis", zh: "CCAD · 本科毕业设计" },
@@ -169,7 +169,7 @@ window.PROJECTS = [
       { h: { en: "Idea", zh: "创意" },
         p: { en: "My senior thesis at CCAD: an action figure based on my own monster design. Cross Black King draws on the classic kaiju Black King and mecha-kaiju such as Mechagodzilla, reimagined as a robot kaiju built with human technology. I simplified parts of the body into a classic kaiju silhouette while keeping plastic-model design details.",
              zh: "这是我在 CCAD 的本科毕业设计：根据我自己设计的怪兽制作一款可动人偶。Cross Black King 参考了经典怪兽黑王（Black King）和机械哥斯拉等机械怪兽，重新设计成一只由人类科技打造的机器人怪兽。我把部分身体简化成经典的怪兽轮廓，同时保留了拼装模型式的设计细节。" },
-        imgs: ["cross-black-king-02.jpg"] },
+        imgs: ["cross-black-king-hd-silhouette.jpg"] },
       { h: { en: "Sketches and design ideas", zh: "草图与设计思路" },
         p: { en: "Market research and user surveys defined the direction. The design developed through thumbnails, three directions and refined sketching progress.",
              zh: "通过市场调研和用户问卷确定方向，再经过缩略草图、三个方向的比较和逐步细化的草图来发展设计。" },
@@ -177,7 +177,11 @@ window.PROJECTS = [
       { h: { en: "CAD, render and prototype", zh: "建模、渲染与原型" },
         p: { en: "The figure was modeled in CAD with iterative refinement, then 3D-printed as a prototype. Final renders and a product animation were created for the thesis presentation.",
              zh: "人偶在 CAD 中反复迭代建模，然后 3D 打印出原型，并为毕业答辩制作了最终渲染图和产品动画。" },
-        imgs: ["cross-black-king-pose.mp4", "cross-black-king-turntable.mp4", "cross-black-king-hd-02.jpg", "cross-black-king-hd-03.jpg", "cross-black-king-hd-04.jpg", "cross-black-king-07.jpg", "cross-black-king-08.jpg"] }
+        imgs: ["cross-black-king-pose.mp4", "cross-black-king-turntable.mp4", "cross-black-king-hd-01.jpg", "cross-black-king-hd-03.jpg", "cross-black-king-hd-04.jpg", "cross-black-king-07.jpg", "cross-black-king-08.jpg"] },
+      { h: { en: "Thesis exhibition", zh: "毕业设计展" },
+        p: { en: "Cross Black King was shown at the CCAD senior thesis exhibition with a project poster, the product animation and the 3D-printed prototype.",
+             zh: "Cross Black King 在 CCAD 本科毕业设计展上展出，现场展示了项目海报、产品动画和 3D 打印原型。" },
+        imgs: ["cross-black-king-hd-exhibition.jpg"] }
     ]
   },
   {
@@ -191,7 +195,7 @@ window.PROJECTS = [
       { h: { en: "Problem", zh: "问题" },
         p: { en: "Existing dryers didn't fit the body well, offered no guidance while drying, had limited airflow adjustment and were hard to carry. I designed a hair dryer for a specific user group, inspired by futuristic firearms and dark-toned aesthetics.",
              zh: "现有吹风机握持不贴合身体，吹发时没有任何指引，风力调节有限，也不方便携带。我为特定用户群设计了一款吹风机，灵感来自未来感枪械和暗色调美学。" },
-        imgs: ["gun-dryer-02.jpg", "gun-dryer-03.jpg"] },
+        imgs: ["gun-dryer-02.jpg", "gun-dryer-03.jpg", "gun-dryer-hd-handle.jpg"] },
       { h: { en: "Form", zh: "造型" },
         p: { en: "The form borrows from engine exhaust structures and jet-turbine profiles. A small display on top shows airflow temperature, giving the product a bold, tech-driven character. Air is drawn in from the back, heated, and released through the nozzle, while an integrated exhaust vents excess heat. The handle is shaped around the hand.",
              zh: "造型借鉴了引擎排气结构和喷气涡轮的轮廓。顶部的小屏幕显示风温，让产品充满科技感和力量感。空气从后方吸入，加热后从风嘴吹出，多余的热量通过一体化的排气结构排出。握把根据手型设计。" },
@@ -199,7 +203,7 @@ window.PROJECTS = [
       { h: { en: "Packaging", zh: "包装设计" },
         p: { en: "The case is inspired by wooden storage crates. It holds extra customizable parts and batteries, a front lock secures everything in transport, and dual side handles make it easy to carry.",
              zh: "包装灵感来自木质储物箱，可以放下额外的可替换配件和电池。正面的锁扣在运输时固定所有部件，两侧的提手方便携带。" },
-        imgs: ["gun-dryer-09.jpg", "gun-dryer-10.jpg"] },
+        imgs: ["gun-dryer-hd-case.jpg", "gun-dryer-hd-case-inner.jpg", "gun-dryer-hd-carry.jpg", "gun-dryer-10.jpg"] },
       { h: { en: "Final product", zh: "最终成品" },
         p: { en: "Final renders were made in Unreal Engine 5, and a prototype was cut on a CNC machine.",
              zh: "最终渲染在 Unreal Engine 5 中完成，并用 CNC 机床切削出实物原型。" },
@@ -215,9 +219,9 @@ window.PROJECTS = [
     copyright: "© 2026 Haoqing (Justin) Pan",
     sections: [
       { h: { en: "Project", zh: "项目" },
-        p: { en: "A scale model of Mechagodzilla's head built in SolidWorks, with an LED unit inspired by its electronic brain. The final model contains over 300 detailed features. The KeyShot animation shows the LED eyes cycling through colors.",
-             zh: "在 SolidWorks 中制作的机械哥斯拉头部比例模型，灵感来自它的电子大脑，并在其中设计了 LED 灯组。最终模型包含 300 多个精细特征。KeyShot 动画展示了 LED 眼睛的变色效果。" },
-        imgs: ["mecha-head-light-video.mp4", "mecha-head-light-hd-01.jpg", "mecha-head-light-02.jpg", "mecha-head-light-03.jpg", "mecha-head-light-04.jpg"] }
+        p: { en: "A scale model of Mechagodzilla's head built in SolidWorks, with an LED unit inspired by its electronic brain. The final model contains over 300 detailed features. The KeyShot animation shows the LED eyes cycling through colors; the gold unit is the electronic brain, and the head was also 3D-printed as a physical model.",
+             zh: "在 SolidWorks 中制作的机械哥斯拉头部比例模型，灵感来自它的电子大脑，并在其中设计了 LED 灯组。最终模型包含 300 多个精细特征。KeyShot 动画展示了 LED 眼睛的变色效果；金色部件是电子大脑，头部也 3D 打印成了实物模型。" },
+        imgs: ["mecha-head-light-video.mp4", "mecha-head-light-hd-silver.jpg", "mecha-head-light-hd-01.jpg", "mecha-head-light-hd-brain.jpg", "mecha-head-light-hd-print.jpg", "mecha-head-light-02.jpg"] }
     ]
   },
   {
@@ -231,7 +235,7 @@ window.PROJECTS = [
       { h: { en: "Project", zh: "项目" },
         p: { en: "A product illustration of a flashlight for the EGO brand, made in Photoshop, built around green and black, together with a matching battery pack.",
              zh: "为 EGO 品牌设计的手电筒产品效果图，在 Photoshop 中完成，以绿色和黑色为主色，并配套设计了电池包。" },
-        imgs: ["ego-flashlight-01.jpg", "ego-flashlight-02.jpg"] }
+        imgs: ["ego-flashlight-hd-sketch.jpg", "ego-flashlight-01.jpg", "ego-flashlight-02.jpg", "ego-flashlight-hd-battery.jpg"] }
     ]
   },
   {
