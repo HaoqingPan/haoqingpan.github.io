@@ -159,7 +159,7 @@ window.PROJECTS = [
     ]
   },
   {
-    id: "cross-black-king", cat: "industrial", year: 2024, team: "solo", cover: "cross-black-king-01.jpg",
+    id: "cross-black-king", cat: "industrial", year: 2024, team: "solo", cover: "cross-black-king-hd-01.jpg",
     title: { en: "Cross Black King", zh: "Cross Black King" },
     sub: { en: "Collectible kaiju action figure", zh: "可收藏怪兽可动人偶" },
     context: { en: "CCAD · Senior thesis", zh: "CCAD · 本科毕业设计" },
@@ -177,7 +177,7 @@ window.PROJECTS = [
       { h: { en: "CAD, render and prototype", zh: "建模、渲染与原型" },
         p: { en: "The figure was modeled in CAD with iterative refinement, then 3D-printed as a prototype. Final renders and a product animation were created for the thesis presentation.",
              zh: "人偶在 CAD 中反复迭代建模，然后 3D 打印出原型，并为毕业答辩制作了最终渲染图和产品动画。" },
-        imgs: ["cross-black-king-07.jpg", "cross-black-king-01.jpg", "cross-black-king-08.jpg"] }
+        imgs: ["cross-black-king-pose.mp4", "cross-black-king-turntable.mp4", "cross-black-king-hd-02.jpg", "cross-black-king-hd-03.jpg", "cross-black-king-hd-04.jpg", "cross-black-king-07.jpg", "cross-black-king-08.jpg"] }
     ]
   },
   {
@@ -215,9 +215,9 @@ window.PROJECTS = [
     copyright: "© 2026 Haoqing (Justin) Pan",
     sections: [
       { h: { en: "Project", zh: "项目" },
-        p: { en: "A scale model of Mechagodzilla's head built in SolidWorks, with an LED unit inspired by its electronic brain. The final model contains over 300 detailed features.",
-             zh: "在 SolidWorks 中制作的机械哥斯拉头部比例模型，灵感来自它的电子大脑，并在其中设计了 LED 灯组。最终模型包含 300 多个精细特征。" },
-        imgs: ["mecha-head-light-01.jpg", "mecha-head-light-02.jpg", "mecha-head-light-03.jpg", "mecha-head-light-04.jpg"] }
+        p: { en: "A scale model of Mechagodzilla's head built in SolidWorks, with an LED unit inspired by its electronic brain. The final model contains over 300 detailed features. The KeyShot animation shows the LED eyes cycling through colors.",
+             zh: "在 SolidWorks 中制作的机械哥斯拉头部比例模型，灵感来自它的电子大脑，并在其中设计了 LED 灯组。最终模型包含 300 多个精细特征。KeyShot 动画展示了 LED 眼睛的变色效果。" },
+        imgs: ["mecha-head-light-video.mp4", "mecha-head-light-hd-01.jpg", "mecha-head-light-02.jpg", "mecha-head-light-03.jpg", "mecha-head-light-04.jpg"] }
     ]
   },
   {
@@ -235,7 +235,7 @@ window.PROJECTS = [
     ]
   },
   {
-    id: "razer-backpack", cat: "industrial", year: 2023, team: "solo", cover: "razer-backpack-01.jpg",
+    id: "razer-backpack", cat: "industrial", year: 2023, team: "solo", cover: "razer-backpack-hd-7.jpg",
     title: { en: "Razer Backpack", zh: "Razer 双肩包" },
     sub: { en: "Backpack concept and tech pack", zh: "双肩包概念与技术包" },
     context: { en: "CCAD · Individual assignment", zh: "CCAD · 个人作业" },
@@ -243,9 +243,9 @@ window.PROJECTS = [
     copyright: "© 2026 Haoqing (Justin) Pan",
     sections: [
       { h: { en: "Project", zh: "项目" },
-        p: { en: "A backpack designed for Razer in Photoshop and InDesign, using the brand's dark gray and green, developed through sketches into a full tech pack.",
-             zh: "为 Razer 设计的双肩包，在 Photoshop 和 InDesign 中完成，采用品牌标志性的深灰色和绿色，从草图一直做到完整的技术包（Tech Pack）。" },
-        imgs: ["razer-backpack-02.jpg", "razer-backpack-01.jpg"] }
+        p: { en: "A school backpack designed for Razer in Photoshop and InDesign, using the brand's dark gray and green, developed through sketches into a full 7-sheet tech pack: dimensions, storage configuration for laptop, books, lunch box and cards, front pocket, shoulder straps and materials (leather, canvas, magnet, transparent plastic and mesh padding).",
+             zh: "为 Razer 设计的双肩包，在 Photoshop 和 InDesign 中完成，采用品牌标志性的深灰色和绿色，从草图一直做到完整的 7 页技术包（Tech Pack）：尺寸图、笔记本电脑、书本、饭盒和卡片的收纳分区、前袋、肩带，以及材料说明（皮革、帆布、磁扣、透明塑料和网眼衬垫）。" },
+        imgs: ["razer-backpack-02.jpg", "razer-backpack-hd-1.jpg", "razer-backpack-hd-2.jpg", "razer-backpack-hd-3.jpg", "razer-backpack-hd-4.jpg", "razer-backpack-hd-5.jpg", "razer-backpack-hd-6.jpg", "razer-backpack-hd-7.jpg"] }
     ]
   },
 

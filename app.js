@@ -152,6 +152,9 @@
 
   /* ---------- project page ---------- */
   function figure(src, p, extraClass) {
+    if (/\.mp4$/i.test(src)) {
+      return '<figure class="fig vid"><video src="' + IMG + src + '" poster="' + IMG + src.replace(/\.mp4$/i, ".jpg") + '" autoplay muted loop playsinline preload="metadata"></video><figcaption>' + esc(p.copyright) + "</figcaption></figure>";
+    }
     return '<figure class="fig ' + (extraClass || "") + '" data-src="' + IMG + src + '"><img loading="lazy" draggable="false" src="' + IMG + src + '" alt="' + esc(L(p.title)) + '"><figcaption>' + esc(p.copyright) + "</figcaption></figure>";
   }
   function renderProject(p) {
@@ -172,6 +175,7 @@
     });
     if (nxt && nxt !== p) h += '<a class="next" href="#p/' + nxt.id + '"><span><small>' + t("next") + "</small><strong>" + esc(L(nxt.title)) + '</strong></span><span class="arrow">→</span></a>';
     v.innerHTML = h;
+    v.querySelectorAll("video").forEach(function (vid) { vid.muted = true; var pr = vid.play(); if (pr && pr.catch) pr.catch(function () {}); });
     document.getElementById("back").addEventListener("click", function () { location.hash = p.cat; });
     document.title = L(p.title) + " · Haoqing (Justin) Pan";
   }
@@ -185,7 +189,7 @@
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") lb.hidden = true; });
   document.getElementById("project-view").addEventListener("click", function (e) {
     var f = e.target.closest(".fig");
-    if (f) openLightbox(f.dataset.src, f.querySelector("figcaption").textContent);
+    if (f && !f.classList.contains("vid")) openLightbox(f.dataset.src, f.querySelector("figcaption").textContent);
   });
 
   /* ---------- routing ---------- */
