@@ -186,10 +186,14 @@ window.PROJECTS = [
         p: { en: "I then broke the figure into parts (head, arms, tail, torso and legs) and drew several options for each. The sheets were pinned up for class critique, where classmates marked their favorites, and the most-voted parts were combined into the final design.",
              zh: "接着我把人偶拆成头部、手臂、尾巴、躯干和腿部，每个部位画了多个方案。这些草图贴在墙上进行课堂评图，同学们在喜欢的方案上做标记，得票最多的部件最终组合成了定稿设计。" },
         imgs: ["cbk-parts-1.jpg", "cbk-parts-2.jpg", "cbk-parts-3.jpg", "cbk-critique-board.jpg", "cbk-critique-votes.jpg"] },
+      { h: { en: "Design tenets and inner skeleton", zh: "设计原则与内部骨架" },
+        p: { en: "Four tenets guided the figure. Customize: parts are exchangeable and easy to split from or assemble onto the main body. Modular: parts share the same joints and connections, so they are easy to make and manufacture. Articulating: joints move and curve, so the toy can hold many poses and looks. Interactive: playful features that customers can touch and enjoy. An inner skeleton system makes this possible, increasing articulation and letting parts and joints be customized.",
+             zh: "四条原则指导了这个人偶的设计。可定制：零件可以替换，能方便地从主体上拆下或装上。模块化：零件共用相同的关节和连接方式，便于制作和量产。可动：关节可以活动和弯曲，摆出各种姿势和造型。可互动：加入顾客可以触摸、把玩的趣味功能。实现这些的关键是内部骨架系统，它提升了可动性，也让零件和关节都可以定制。" },
+        imgs: ["cbk-skeleton-1.jpg", "cbk-volume-model.jpg", "cbk-volume-drawing.jpg"] },
       { h: { en: "CAD, render and prototype", zh: "建模、渲染与原型" },
-        p: { en: "The figure was modeled in CAD with iterative refinement, then 3D-printed as a prototype. Final renders and a product animation were created for the thesis presentation.",
-             zh: "人偶在 CAD 中反复迭代建模，然后 3D 打印出原型，并为毕业答辩制作了最终渲染图和产品动画。" },
-        imgs: ["cross-black-king-pose.mp4", "cross-black-king-turntable.mp4", "cross-black-king-hd-01.jpg", "cross-black-king-hd-03.jpg", "cross-black-king-hd-04.jpg", "cross-black-king-07.jpg", "cross-black-king-08.jpg"] },
+        p: { en: "The armor was modeled in CAD over the skeleton and refined through several rounds, then 3D-printed as a prototype. The planned material is shiny hard PVC, durable and affordable for family products, with a metallic coating that gives a strong, heavy mechanical feel, and ABS for the joints. With the inner skeleton, the figure can hold fighting, running and beam-firing poses. Final renders and product animations were created for the thesis presentation.",
+             zh: "外甲在 CAD 中基于骨架建模，经过多轮修改后 3D 打印出原型。计划使用的材料是有光泽的硬质 PVC，耐用又便宜，适合家庭消费产品，表面加金属色涂装，营造厚重、坚固的机械感；关节部分使用 ABS。有了内部骨架，人偶可以摆出战斗、奔跑和发射光束等姿势。最终渲染图和产品动画为毕业答辩制作。" },
+        imgs: ["cross-black-king-pose.mp4", "cross-black-king-turntable.mp4", "cbk-cad-process.jpg", "cbk-cad-render.jpg", "cbk-render-1.jpg", "cbk-render-2.jpg", "cbk-render-3.jpg", "cbk-render-4.jpg", "cross-black-king-08.jpg"] },
       { h: { en: "Thesis exhibition", zh: "毕业设计展" },
         p: { en: "Cross Black King was shown at the CCAD senior thesis exhibition with a project poster, the product animation and the 3D-printed prototype.",
              zh: "Cross Black King 在 CCAD 本科毕业设计展上展出，现场展示了项目海报、产品动画和 3D 打印原型。" },
@@ -197,7 +201,7 @@ window.PROJECTS = [
     ]
   },
   {
-    id: "gun-dryer", cat: "industrial", year: 2022, team: "solo", cover: "gun-dryer-01.jpg",
+    id: "gun-dryer", cat: "industrial", year: 2022, team: "solo", cover: "gd-cover.jpg",
     title: { en: "Gun Dryer", zh: "Gun Dryer" },
     sub: { en: "Hair dryer with a jet-engine character", zh: "喷气引擎风格吹风机" },
     context: { en: "CCAD · Individual assignment", zh: "CCAD · 个人作业" },
@@ -205,21 +209,21 @@ window.PROJECTS = [
     copyright: "© 2026 Haoqing (Justin) Pan",
     sections: [
       { h: { en: "Problem", zh: "问题" },
-        p: { en: "Existing dryers didn't fit the body well, offered no guidance while drying, had limited airflow adjustment and were hard to carry. I designed a hair dryer for a specific user group, inspired by futuristic firearms and dark-toned aesthetics.",
-             zh: "现有吹风机握持不贴合身体，吹发时没有任何指引，风力调节有限，也不方便携带。我为特定用户群设计了一款吹风机，灵感来自未来感枪械和暗色调美学。" },
+        p: { en: "Users told me the handle was too long or too small for their hand, the button signs were unhelpful, they wanted to adjust temperature and blow speed, and they wanted to take the dryer somewhere other than the bathroom. My answers: a handle shaped to the hand with clear signs, a small screen showing speed and temperature, a storage box with extra interchangeable parts, and built-in batteries for longer use. The look is inspired by futuristic firearms and dark-toned aesthetics.",
+             zh: "用户反馈说握把太长或太小、不贴合手型，按键标识不清楚，希望能调节温度和风速，还希望能在浴室以外的地方使用。我的解决方案：贴合手型、标识清晰的握把；显示风速和温度的小屏幕；带额外可替换配件的收纳箱；内置电池延长使用时间。外观灵感来自未来感枪械和暗色调美学。" },
         imgs: ["gun-dryer-02.jpg", "gun-dryer-03.jpg", "gun-dryer-hd-handle.jpg"] },
       { h: { en: "Form", zh: "造型" },
         p: { en: "The form borrows from engine exhaust structures and jet-turbine profiles. A small display on top shows airflow temperature, giving the product a bold, tech-driven character. Air is drawn in from the back, heated, and released through the nozzle, while an integrated exhaust vents excess heat. The handle is shaped around the hand.",
              zh: "造型借鉴了引擎排气结构和喷气涡轮的轮廓。顶部的小屏幕显示风温，让产品充满科技感和力量感。空气从后方吸入，加热后从风嘴吹出，多余的热量通过一体化的排气结构排出。握把根据手型设计。" },
-        imgs: ["gun-dryer-04.jpg", "gun-dryer-05.jpg", "gun-dryer-06.jpg", "gun-dryer-07.jpg", "gun-dryer-08.jpg"] },
+        imgs: ["gun-dryer-04.jpg", "gun-dryer-05.jpg", "gd-vbl-1.jpg", "gd-vbl-2.jpg", "gd-vbl-3.jpg", "gd-vbl-4.jpg", "gd-airflow.jpg", "gun-dryer-08.jpg"] },
       { h: { en: "Packaging", zh: "包装设计" },
         p: { en: "The case is inspired by wooden storage crates. It holds extra customizable parts and batteries, a front lock secures everything in transport, and dual side handles make it easy to carry.",
              zh: "包装灵感来自木质储物箱，可以放下额外的可替换配件和电池。正面的锁扣在运输时固定所有部件，两侧的提手方便携带。" },
-        imgs: ["gun-dryer-hd-case.jpg", "gun-dryer-hd-case-inner.jpg", "gun-dryer-hd-carry.jpg", "gun-dryer-10.jpg"] },
+        imgs: ["gd-box-render.jpg", "gun-dryer-hd-case.jpg", "gun-dryer-hd-case-inner.jpg", "gun-dryer-hd-carry.jpg", "gd-latch.jpg"] },
       { h: { en: "Final product", zh: "最终成品" },
         p: { en: "Final renders were made in Unreal Engine 5, and a prototype was cut on a CNC machine.",
              zh: "最终渲染在 Unreal Engine 5 中完成，并用 CNC 机床切削出实物原型。" },
-        imgs: ["gun-dryer-11.jpg", "gun-dryer-01.jpg", "gun-dryer-12.jpg", "gun-dryer-13.jpg"] }
+        imgs: ["gd-final-1.jpg", "gd-final-2.jpg", "gd-cap.jpg", "gun-dryer-13.jpg"] }
     ]
   },
   {
