@@ -189,7 +189,7 @@ window.PROJECTS = [
       { h: { en: "Design tenets and inner skeleton", zh: "设计原则与内部骨架" },
         p: { en: "Four tenets guided the figure. Customize: parts are exchangeable and easy to split from or assemble onto the main body. Modular: parts share the same joints and connections, so they are easy to make and manufacture. Articulating: joints move and curve, so the toy can hold many poses and looks. Interactive: playful features that customers can touch and enjoy. An inner skeleton system makes this possible, increasing articulation and letting parts and joints be customized.",
              zh: "四条原则指导了这个人偶的设计。可定制：零件可以替换，能方便地从主体上拆下或装上。模块化：零件共用相同的关节和连接方式，便于制作和量产。可动：关节可以活动和弯曲，摆出各种姿势和造型。可互动：加入顾客可以触摸、把玩的趣味功能。实现这些的关键是内部骨架系统，它提升了可动性，也让零件和关节都可以定制。" },
-        imgs: ["cbk-skeleton-1.jpg", "cbk-volume-model.jpg", "cbk-volume-drawing.jpg"] },
+        imgs: ["cbk-volume-model.jpg", "cbk-volume-drawing.jpg"] },
       { h: { en: "CAD, render and prototype", zh: "建模、渲染与原型" },
         p: { en: "The armor was modeled in CAD over the skeleton and refined through several rounds, then 3D-printed as a prototype. The planned material is shiny hard PVC, durable and affordable for family products, with a metallic coating that gives a strong, heavy mechanical feel, and ABS for the joints. With the inner skeleton, the figure can hold fighting, running and beam-firing poses. Final renders and product animations were created for the thesis presentation.",
              zh: "外甲在 CAD 中基于骨架建模，经过多轮修改后 3D 打印出原型。计划使用的材料是有光泽的硬质 PVC，耐用又便宜，适合家庭消费产品，表面加金属色涂装，营造厚重、坚固的机械感；关节部分使用 ABS。有了内部骨架，人偶可以摆出战斗、奔跑和发射光束等姿势。最终渲染图和产品动画为毕业答辩制作。" },
